@@ -1,0 +1,131 @@
+{
+  "item": [
+    {
+      "id": 1,
+      "SKU": "0001",
+      "nama_product": "ABC Squash Orange",
+      "price": 15000,
+      "quantity": 100,
+      "url": "https://cs1.alfacart.com/product/1/1_A12370002895_20200310103647991_base.jpg",
+      "isdeleted": 0
+    },
+    {
+      "id": 2,
+      "SKU": "0002",
+      "nama_product": "ABC Squash Lychee",
+      "price": 15000,
+      "quantity": 100,
+      "url": "https://cs1.alfacart.com/product/1/1_B7632940001008_20210215133844624_base.jpg",
+      "isdeleted": 0
+    },
+    {
+      "nama_product": "Buavita Jambu",
+      "SKU": "0003",
+      "quantity": "100",
+      "price": "15000",
+      "url": "blob:http://localhost:3000/3f3aa31b-3668-478c-abdc-d96a38ef9c80",
+      "isdeleted": 0,
+      "id": 3
+    },
+    {
+      "nama_product": "buavita lychee",
+      "SKU": "0004",
+      "quantity": "90",
+      "price": "4500",
+      "url": "blob:http://localhost:3000/6c9d6ff0-2bfe-4992-addc-0d1ada8f78b0",
+      "isdeleted": 0,
+      "id": 4
+    },
+    {
+      "nama_product": "buavita mangga",
+      "SKU": "0005",
+      "quantity": "80",
+      "price": "5000",
+      "url": "blob:http://localhost:3000/396bd5b8-11a3-4f85-9c1b-d43f793b0894",
+      "isdeleted": 0,
+      "id": 5
+    },
+    {
+      "nama_product": "cha cha",
+      "SKU": "00007",
+      "url": "blob:http://localhost:3000/024b6514-a55f-4fc1-8583-01fd44c3ab5f",
+      "quantity": "80",
+      "price": "10000",
+      "isdeleted": 0,
+      "id": 6
+    },
+    {
+      "nama_product": "cola cola",
+      "SKU": "00008",
+      "price": "8000",
+      "url": "blob:http://localhost:3000/895e15ec-183a-420f-a83c-f27257eddb45",
+      "isdeleted": 0,
+      "quantity": "80",
+      "id": 7
+    },
+    {
+      "nama_product": "egg drop",
+      "SKU": "0009",
+      "price": "7000",
+      "url": "blob:http://localhost:3000/21ed822b-0081-45ee-adcc-1191e0009bcb",
+      "isdeleted": 0,
+      "quantity": "80",
+      "id": 8
+    },
+    {
+      "nama_product": "Marjan Melon",
+      "SKU": "0010",
+      "price": "19000",
+      "url": "blob:http://localhost:3000/22765a86-4b65-4e78-8367-8e866db04466",
+      "isdeleted": 0,
+      "quantity": "70",
+      "id": 9
+    },
+    {
+      "nama_product": "test",
+      "SKU": "00030",
+      "price": "8000",
+      "url": "blob:http://localhost:3000/97956bb1-e117-49e5-81cc-215cb3fab292",
+      "isdeleted": 0,
+      "quantity": "50",
+      "id": 10
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "nama": "Bayu Darmawan",
+      "password": "Kuinginbobo1",
+      "email": "darmawanbayu1@gmail.com",
+      "phone_number": "087785192296"
+    },
+    {
+      "id": 2,
+      "nama": "Bayu Darmawan",
+      "password": "Kuinginbobo1",
+      "email": "darmawanbayu1@gmail.com",
+      "phone_number": "087785192296"
+    },
+    {
+      "nama": "Banan",
+      "password": "Kuinginbobo1",
+      "email": "darmawanbayu1@gmail.com",
+      "phone_number": "087785192296",
+      "id": 3
+    },
+    {
+      "nama": "gorichan2",
+      "password": "Gorichan1234",
+      "email": "gorichan2@gmail.com",
+      "phone_number": "087785192291",
+      "id": 4
+    },
+    {
+      "nama": "testing12",
+      "password": "Terserahgue1",
+      "email": "testing12@gmail.com",
+      "phone_number": "087785192299",
+      "id": 5
+    }
+  ]
+}

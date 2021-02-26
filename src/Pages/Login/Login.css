@@ -1,0 +1,123 @@
+.outer-login{
+    height:100vh;
+    width:100%;
+    background: linear-gradient(90deg, rgba(9,132,227,1) 31%, rgba(116,185,255,1) 65%, rgba(199,236,238,1) 82%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.big-outer-login{
+    /* height:90vh; */
+    width:80%;
+    border:5px solid white;
+    border-radius:20px;
+}
+.header-login{
+    height:130px;
+    width:100%;
+    background-color: #dfe6e9;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+    /* padding-left:20px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.header-logo-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    padding:10px;
+}
+
+.logo-login{
+    height:80px;
+    width:100px;
+    display: flex;
+    align-self: center;
+    
+}
+.logo-name{
+    font-size:30px;
+    color:#130f40;
+    font-weight: 800;
+    margin:10px;
+    line-height: 0.5;
+}
+
+
+.login-search{
+    /* height:470px; */
+    /* height:100%; */
+    width:100%;
+    background-color: #dfe6e9;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow:auto;
+}
+.login-box{
+    height:400px;
+    width:40%;
+    border:3px solid white;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom:30px;
+}
+
+.input-data{
+    width:230px;
+    height:30px;
+    border: 2px solid blue;
+    border-radius:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:gray;
+    font-size:20px;
+    text-align: center;
+    margin:10px;
+}
+
+.login-btn{
+    width:300px;
+    border: 1px solid white;
+    border-radius:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#00a8ff ;
+}
+
+.login-btn:hover{
+    cursor: pointer;
+
+}
+
+.login-with{
+    font-size: 15px;
+    line-height: 0;
+    align-self:flex-end;
+    transition: 0.5s all;
+    transition-timing-function: ease-in-out;
+    padding:5px;
+}
+
+.login-with:hover{
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+    background-color:#00a8ff ;
+    cursor: pointer;
+    border-radius:5px;
+}
