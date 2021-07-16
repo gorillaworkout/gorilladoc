@@ -14,6 +14,7 @@ import {connect} from 'react-redux';
 import {useDispatch} from 'react-redux'
 import { compose } from 'redux';
 import { useHistory } from "react-router-dom";
+import $ from 'jquery';
 
 function Login(props){
     const history = useHistory();
@@ -32,11 +33,14 @@ function Login(props){
     const [isPassword,setIsPassword] = useState(false)
     const [isPhoneNumber,setIsPhoneNumber] = useState(false)
 
+    const [active_wrong,setIsActive_wrong]= useState(false)
+
 
 
     useEffect(()=>{
         autoLogin()
     },[])
+
 
     const onPassword=debounce(function(password){
         // console.log(password)
@@ -124,12 +128,15 @@ function Login(props){
                 dispatch(LoginThunk(email,password))
                 history.push('/')
             }else{
-                Swal.fire({
-                    title: 'Error!',
-                    text: 'Wrong Password or Email',
-                    icon: 'error',
-                    confirmButtonText: 'Cool'
-                  })
+                $('#id_form_email').addClass('input_wrong')
+                $('#id_form_phone').addClass('input_wrong')
+                $('#id_form_password').addClass('input_wrong')
+                // Swal.fire({
+                //     title: 'Error!',
+                //     text: 'Wrong Password or Email',
+                //     icon: 'error',
+                //     confirmButtonText: 'Cool'
+                //   })
             }
         
         }else{
@@ -138,13 +145,16 @@ function Login(props){
                 console.log(password)
                 dispatch(LoginThunk(phoneNumber,password))
                 console.log('login jalan')
+                setIsActive_wrong(false)
             }else {
-                Swal.fire({
-                    title: 'Error!',
-                    text: 'Wrong Password or Phone Number',
-                    icon: 'error',
-                    confirmButtonText: 'Cool'
-                  })
+                setIsActive_wrong(true)
+                // Swal.fire({
+                //     title: 'Error!',
+                //     text: 'Wrong Password or Phone Number',
+                //     icon: 'error',
+                //     confirmButtonText: 'Cool'
+                //   })
+                
             }
         }
     }
@@ -168,6 +178,9 @@ function Login(props){
         
     }
 
+    // $('.form_email').on('click',function(){
+    //     alert('jalan')
+    // })
     return (
         
         <>
@@ -201,17 +214,19 @@ function Login(props){
                                 loginWithEmail ?
                                 <i style={{display:'flex',flexDirection:'row',justifyContent:'center',alignItems:'center'}}>
                                     <HiOutlineMail size={30}/>
-                                    <input className="input-data" type='text' placeholder=' Email' onChange={(e)=>onEmail(e.target.value)}></input>         
+                                    <input className={active_wrong ===true ? "input_wrong" : "", 'input-data'} id="id_form_email" type='text' placeholder=' Email' onChange={(e)=>onEmail(e.target.value)}></input> 
+                                   
+                
                                 </i>
                                 :
                                 <i style={{display:'flex',flexDirection:'row',justifyContent:'center',alignItems:'center'}}>
                                     <BsPhone size={30}/>
-                                    <input className="input-data" type='number' placeholder=' Phone Number' onChange={(e)=>onNumber(e.target.value)}></input> 
+                                    <input className={active_wrong ===true ? "input_wrong" : "", 'input-data'} id="id_form_phone"  type='number' placeholder=' Phone Number' onChange={(e)=>onNumber(e.target.value)}></input> 
                                 </i>
                             }
                                 <i style={{display:'flex',flexDirection:'row',justifyContent:'center',alignItems:'center'}}>
                                     <RiLockPasswordFill size={30}/>
-                                    <input className="input-data" type='password' placeholder=' Password' onChange={(e)=>onPassword(e.target.value)}></input> 
+                                    <input className={active_wrong ===true ? "input_wrong" : "", 'input-data'}id="id_form_password" type='password' placeholder=' Password' onChange={(e)=>onPassword(e.target.value)}></input> 
                                 </i>
                         <div className="login-btn" onClick={onLogin}>
                             <p>LOGIN</p>

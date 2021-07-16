@@ -23,16 +23,16 @@
       "SKU": "0003",
       "quantity": "100",
       "price": "15000",
-      "url": "blob:http://localhost:3000/3f3aa31b-3668-478c-abdc-d96a38ef9c80",
-      "isdeleted": 0,
+      "url": "https://cs1.alfacart.com/product/1/1_B7632940001008_20210215133844624_base.jpg",
+      "isdeleted": 1,
       "id": 3
     },
     {
-      "nama_product": "buavita lychee",
-      "SKU": "0004",
-      "quantity": "90",
-      "price": "4500",
-      "url": "blob:http://localhost:3000/6c9d6ff0-2bfe-4992-addc-0d1ada8f78b0",
+      "nama_product": "testing lagi",
+      "SKU": "000040",
+      "quantity": "200",
+      "price": "10000",
+      "url": "blob:http://localhost:3000/49cac22e-2e6e-466f-ab6f-edd69468efac",
       "isdeleted": 0,
       "id": 4
     },
@@ -41,8 +41,8 @@
       "SKU": "0005",
       "quantity": "80",
       "price": "5000",
-      "url": "blob:http://localhost:3000/396bd5b8-11a3-4f85-9c1b-d43f793b0894",
-      "isdeleted": 0,
+      "url": "https://cs1.alfacart.com/product/1/1_B7632940001008_20210215133844624_base.jpg",
+      "isdeleted": 1,
       "id": 5
     },
     {
@@ -51,14 +51,14 @@
       "url": "blob:http://localhost:3000/024b6514-a55f-4fc1-8583-01fd44c3ab5f",
       "quantity": "80",
       "price": "10000",
-      "isdeleted": 0,
+      "isdeleted": 1,
       "id": 6
     },
     {
       "nama_product": "cola cola",
       "SKU": "00008",
       "price": "8000",
-      "url": "blob:http://localhost:3000/895e15ec-183a-420f-a83c-f27257eddb45",
+      "url": "https://cs1.alfacart.com/product/1/1_B7632940001008_20210215133844624_base.jpg",
       "isdeleted": 0,
       "quantity": "80",
       "id": 7
@@ -67,7 +67,7 @@
       "nama_product": "egg drop",
       "SKU": "0009",
       "price": "7000",
-      "url": "blob:http://localhost:3000/21ed822b-0081-45ee-adcc-1191e0009bcb",
+      "url": "https://cs1.alfacart.com/product/1/1_B7632940001008_20210215133844624_base.jpg",
       "isdeleted": 0,
       "quantity": "80",
       "id": 8
@@ -76,7 +76,7 @@
       "nama_product": "Marjan Melon",
       "SKU": "0010",
       "price": "19000",
-      "url": "blob:http://localhost:3000/22765a86-4b65-4e78-8367-8e866db04466",
+      "url": "https://cs1.alfacart.com/product/1/1_B7632940001008_20210215133844624_base.jpg",
       "isdeleted": 0,
       "quantity": "70",
       "id": 9
@@ -85,10 +85,28 @@
       "nama_product": "test",
       "SKU": "00030",
       "price": "8000",
-      "url": "blob:http://localhost:3000/97956bb1-e117-49e5-81cc-215cb3fab292",
+      "url": "https://cs1.alfacart.com/product/1/1_B7632940001008_20210215133844624_base.jpg",
       "isdeleted": 0,
       "quantity": "50",
       "id": 10
+    },
+    {
+      "nama_product": "chitato",
+      "SKU": "000019",
+      "price": "3000",
+      "url": "blob:http://localhost:3002/100def35-5e42-4cab-a955-5042738ef495",
+      "isdeleted": 0,
+      "quantity": "1000",
+      "id": 11
+    },
+    {
+      "nama_product": "testing",
+      "SKU": "000023",
+      "price": "30000",
+      "url": "blob:http://localhost:3000/3f66ebc4-6b0e-43f1-b367-fd6ad6f2e687",
+      "isdeleted": 0,
+      "quantity": "10",
+      "id": 12
     }
   ],
   "user": [
@@ -126,6 +144,34 @@
       "email": "testing12@gmail.com",
       "phone_number": "087785192299",
       "id": 5
+    },
+    {
+      "nama": "Bayu",
+      "password": "Terserahgue1",
+      "email": "darmawanbayu1@gmail.com",
+      "phone_number": "087785192296",
+      "id": 6
+    },
+    {
+      "nama": "gorichan",
+      "password": "Terserahgue1",
+      "email": "gorichan@gmail.com",
+      "phone_number": "0877851922998",
+      "id": 7
+    },
+    {
+      "nama": "Bayu",
+      "password": "Terserahgue1",
+      "email": "jajanyok@gmail.com",
+      "phone_number": "087785192290",
+      "id": 8
+    },
+    {
+      "nama": "testing",
+      "password": "Terserahgue1",
+      "email": "testing@gmail.com",
+      "phone_number": "087785192230",
+      "id": 9
     }
   ]
 }

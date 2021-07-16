@@ -91,6 +91,11 @@
     margin:10px;
 }
 
+.input_wrong{
+    border:2px solid red;
+    transition: 0.5s ease-out;
+}
+
 .login-btn{
     width:300px;
     border: 1px solid white;

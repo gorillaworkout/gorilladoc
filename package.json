@@ -15,7 +15,7 @@
     "firebase": "^8.2.0",
     "gsap": "^3.5.1",
     "hover.css": "^2.3.2",
-    "jquery": "^3.5.1",
+    "jquery": "^3.6.0",
     "lodash-es": "^4.17.20",
     "lodash-move": "^1.1.1",
     "lodash.clamp": "^4.0.3",

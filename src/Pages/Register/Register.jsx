@@ -128,7 +128,7 @@ function Register(props){
     const onLogin=()=>{
         //  alert('login jalan')
          if(isNamaLengkap && isPassword && isEmail && isPhoneNumber){
-             alert('berhasil Register')
+            //  alert('berhasil Register')
             Axios.get(`${API_URL}/user`)
             .then((res)=>{
                 console.log(res.data)
@@ -136,7 +136,12 @@ function Register(props){
 
                 var filterUser = dataUser.filter((val,index)=>{
                     if (val.email === email || val.phone === phoneNumber){
-                        alert('email dan no hp sudah terdaftar')
+                        Swal.fire({
+                            title: 'Error!',
+                            text: 'Email / Nomor Hp Sudah Terdaftar',
+                            icon: 'error',
+                            confirmButtonText: 'Cool'
+                          })
                     }
                     
                 })
@@ -206,7 +211,7 @@ function Register(props){
                             </i>
                             <i style={{display:'flex',flexDirection:'row',justifyContent:'center',alignItems:'center'}}>
                                 <RiLockPasswordFill size={30}/>
-                                <input className="input-data" type='text' placeholder=' Password' onChange={(e)=>onPassword(e.target.value)}></input> 
+                                <input className="input-data" type='password' placeholder=' Password' onChange={(e)=>onPassword(e.target.value)}></input> 
                             </i>
                             <i style={{display:'flex',flexDirection:'row',justifyContent:'center',alignItems:'center'}}>
                                 <BsPhone size={30}/>

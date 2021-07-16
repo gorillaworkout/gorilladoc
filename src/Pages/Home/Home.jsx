@@ -3,11 +3,6 @@ import './Home.css'
 import '../../style/Global.css'
 import Logo from './../../Assets/newbggw.png'
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
-import gambar1 from './../../Assets/Parcel Minuman/abcsquash13k.jpg'
-import gambar2 from './../../Assets/Parcel Minuman/buavitajambu7k.jpg'
-import gambar3 from './../../Assets/Parcel Minuman/buavitalychee7k.jpg'
-import gambar4 from './../../Assets/Parcel Minuman/buavitamangga7k.jpg'
-import gambar5 from './../../Assets/Parcel Minuman/chacha6k.jpg'
 // import dataDB from './../../Json/listData.json'
 import { TiDelete } from "react-icons/ti";
 import debounce from 'lodash.debounce';

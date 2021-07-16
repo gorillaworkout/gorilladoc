@@ -1,5 +1,4 @@
 import React,{useEffect,useState} from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {Switch,Route} from 'react-router-dom'
 import {toast} from 'react-toastify'  
@@ -11,7 +10,6 @@ import Register from './Pages/Register/Register'
 import Axios from 'axios'
 import {API_URL} from './Helpers/apiUrl'
 import { LoginFunc } from './redux/Actions'
-import { useHistory } from "react-router-dom";
 import {connect} from 'react-redux';
 import {useDispatch} from 'react-redux'
 import {LoginThunk} from './redux/Actions'

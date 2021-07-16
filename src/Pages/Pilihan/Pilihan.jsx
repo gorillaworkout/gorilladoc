@@ -24,8 +24,7 @@ function Pilihan(props){
                         <div>
 
                         </div>
-                        
-                       
+                                 
                     </div>
 
                     <div className="login-search">
